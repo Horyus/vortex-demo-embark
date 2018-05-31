@@ -4,7 +4,7 @@
   Author: mortimr
   -->
 <div align="center" >
-<img width="25%" src="https://raw.githubusercontent.com/Horyus/vortex-demo/master/https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/vortex-components.png">
+<img width="25%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/vortex-components.png">
 </div>
 
 ### [Documentation](https://vort-x.readthedocs.io/en/master/tutorial)
@@ -31,9 +31,9 @@ And visit localhost on port 8000 !
 ### Event Notifications
 
 <div align="center" >
-<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/EventNotification_1.png">
-<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/EventNotification_2.png">
-<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/EventNotification_3.png">
+<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/EventNotification_1.png">
+<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/EventNotification_2.png">
+<img width="33%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/EventNotification_3.png">
 </div>
 
 
