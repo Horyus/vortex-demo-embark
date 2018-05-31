@@ -4,7 +4,7 @@
   Author: mortimr
   -->
 <div align="center" >
-<img width="25%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/vortex-components.png">
+<img width="25%" src="https://raw.githubusercontent.com/Horyus/vortex-demo-embark/master/.assets/VortexDemo.png">
 </div>
 
 ### [Documentation](https://vort-x.readthedocs.io/en/master/tutorial)
