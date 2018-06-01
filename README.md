@@ -19,6 +19,7 @@ embark simulator
 
 And in another one
 ```
+export NODE_ENV=development
 embark run
 ```
 
