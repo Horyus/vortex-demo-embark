@@ -45,3 +45,8 @@ And visit localhost on port 8000 !
 ### Event Feed
 
 ![Event Feed](https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/EventFeed.png)
+
+### IPFS Content Fetching
+
+![IPFS Fetching](https://raw.githubusercontent.com/Horyus/vortex-demo/master/.assets/IpfsFetching.png)
+
