@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {VortexGate, VortexWeb3Loaded, VortexWeb3LoadError, VortexWeb3NetworkError, VortexWeb3Loading, VortexMetamaskLoader} from "vort_x-components";
+import {VortexGate, VortexWeb3Loaded, VortexWeb3LoadError, VortexWeb3NetworkError, VortexWeb3Loading, VortexWeb3Locked, VortexMetamaskLoader} from "vort_x-components";
 import SimpleStorageContract from 'Embark/contracts/SimpleStorage';
 import * as Chains from '../chains.json';
 import {Grid, Col, Panel} from 'react-bootstrap';
@@ -23,7 +23,7 @@ class App extends Component {
         return (
             <VortexGate contracts={{
                 type: 'embark',
-                contracts: {
+                embark_contracts: {
                     SimpleStorage: SimpleStorageContract
                 },
                 chains: Chains,
@@ -115,6 +115,21 @@ class App extends Component {
                         </main>
                     </div>
                 </VortexWeb3NetworkError>
+
+
+                <VortexWeb3Locked>
+                    <div className="App">
+
+                        <main className="container">
+                            <div className="pure-g">
+                                <div className="pure-u-1-1">
+                                    <h1>Psst!</h1>
+                                    <p>Looks like someone forgot to unlock its wallet provider ;)</p>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </VortexWeb3Locked>
 
 
             </VortexGate>
