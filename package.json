@@ -18,7 +18,7 @@
     "react-sliding-pane": "^2.0.2",
     "sha1": "^1.1.1",
     "vort_x-components": "^1.0.8-bravo",
-    "vort_x": "^1.0.1-bravo",
+    "vort_x": "^1.0.1-charlie",
     "web3": "^1.0.0-beta.34"
   },
   "babel": {
