@@ -21,16 +21,25 @@ import {IPFSFetcher} from './demo-sections/ipfs-fetcher';
 class App extends Component {
     render() {
         return (
-            <VortexGate contracts={{
-                type: 'embark',
-                embark_contracts: {
-                    SimpleStorage: SimpleStorageContract
-                },
-                chains: Chains,
-                preloaded_contracts: [
-                    "SimpleStorage"
-                ]
-            }} loader={VortexMetamaskLoader(Web3)}>
+            <VortexGate
+                contracts={{
+                    type: 'embark',
+                    embark_contracts: {
+                        SimpleStorage: SimpleStorageContract
+                    },
+                    chains: Chains,
+                    preloaded_contracts: [
+                        "SimpleStorage"
+                    ]
+                }}
+                loader={VortexMetamaskLoader(Web3)}
+                ipfs_config={{
+                    host: 'ipfs.infura.io',
+                    port: '5001',
+                    options: {
+                        protocol: 'https'
+                    }
+                }}>
 
 
                 <VortexWeb3Loaded>
