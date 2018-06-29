@@ -39,6 +39,12 @@ class App extends Component {
                     options: {
                         protocol: 'https'
                     }
+                }}
+                backlink_config={{
+                    url: {
+                        "mainnet": "wss://mainnet.infura.io/ws",
+                        "default": "ws://localhost:8545/ws"
+                    }
                 }}>
 
 
