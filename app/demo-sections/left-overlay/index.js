@@ -28,7 +28,7 @@ class ListElement extends Component {
                 break;
             case 'NEW_ACCOUNT':
                 this.title = "New Account";
-                this.body = "Following accounts.md " + this.props.data.account;
+                this.body = "Following account " + this.props.data.account;
                 this.style = "primary";
                 break;
             default:
