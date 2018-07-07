@@ -17,23 +17,25 @@ Install [Metamask](https://metamask.io/) for your browser.
 
 ## Running
 
-In one terminal
-```
+### Prerequisites
+
+```bash
+cd vortex-demo-embark/ && npm install
 npm install -g embark
 ```
 
-And in another one
-```
-export NODE_ENV=development
-embark run
-```
+### Run
+
+| 1. In one terminal | 2. In another terminal |
+| --------------- | ------------------- |
+| ```embark simulator```  |```env NODE_ENV=development embark run```|
 
 And visit localhost on port 8000 !
 
 **TIP !**
 
-You can configure an account with a particular `mnemonic` in embark's config/contract.js account field. 
-This is very helpful as you can import these words in Metamask and always have a ready to use account for testing !
+You can configure a `mnemonic` for the embark simulator in `config/blockchain.js` (`simulatorMnemonic`).
+This is very helpful as you can import these words in Metamask and always have a set of 10 ready to use accounts for testing !
 
 ### Live Transaction Data
 

@@ -21,10 +21,10 @@
     "web3": "^1.0.0-beta.34"
   },
   "babel": {
-     "ignore": [
-       "config/",
-       "node_modules"
-     ],
+    "ignore": [
+      "config/",
+      "node_modules"
+    ],
     "presets": [
       "react-app"
     ]

@@ -1,6 +1,6 @@
 module.exports = {
   default: {
-    enabled: true,
+    enabled: false,
     ipfs_bin: "ipfs",
     provider: "ipfs",
     available_providers: ["ipfs"],
@@ -24,7 +24,7 @@ module.exports = {
     swarmPath: "PATH/TO/SWARM/EXECUTABLE" // Path to swarm executable (default: swarm)*/
   },
   development: {
-    enabled: true,
+    enabled: false,
     provider: "ipfs",
     upload: {
       host: "localhost",

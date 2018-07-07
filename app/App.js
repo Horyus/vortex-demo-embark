@@ -43,7 +43,7 @@ class App extends Component {
                 backlink_config={{
                     url: {
                         "mainnet": "wss://mainnet.infura.io/ws",
-                        "default": "ws://localhost:8545"
+                        "default": "ws://localhost:8555"
                     }
                 }}>
 
