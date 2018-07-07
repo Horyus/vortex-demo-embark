@@ -19,8 +19,7 @@ Install [Metamask](https://metamask.io/) for your browser.
 
 In one terminal
 ```
-npm install -g ganache-cli truffle
-ganache-cli -p 8545 -b 5
+npm install -g embark
 ```
 
 And in another one
@@ -33,7 +32,7 @@ And visit localhost on port 8000 !
 
 **TIP !**
 
-You can use the same `mnemonic` (12 word seed phrase) while calling `ganache-cli`, just add them with the `--mnemonic` flag.
+You can configure an account with a particular `mnemonic` in embark's config/contract.js account field. 
 This is very helpful as you can import these words in Metamask and always have a ready to use account for testing !
 
 ### Live Transaction Data
