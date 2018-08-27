@@ -30,9 +30,12 @@ npm install -g embark
 
 | 1. In one terminal | 2. In another terminal |
 | --------------- | ------------------- |
-| ```embark simulator```  |```env NODE_ENV=development embark run```|
+| ```npm run simulator```  |```npm start```|
 
 And visit localhost on port 8000 !
+
+The first command runs a simulation RPC endpoint (`ganache`) for you to easily test the Dapp.
+The second one bundles all the React sources, deploys the contract and exposes the React App on port 8000.
 
 **TIP !**
 

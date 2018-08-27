@@ -4,7 +4,8 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "export NODE_ENV=development && embark run",
+    "simulator": "embark simulator"
   },
   "author": "Iulian Rotaru",
   "license": "ISC",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
+    "babel-preset-react-app": "^3.1.2",
+    "embark": "^3.1.10"
   }
 }
