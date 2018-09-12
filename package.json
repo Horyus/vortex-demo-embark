@@ -4,7 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
-    "start": "export NODE_ENV=development && embark run",
+    "start": "embark run",
     "simulator": "embark simulator"
   },
   "author": "Iulian Rotaru",
@@ -22,18 +22,7 @@
     "vort_x-components": "^1.1.0",
     "web3": "^1.0.0-beta.34"
   },
-  "babel": {
-    "ignore": [
-      "config/",
-      "node_modules"
-    ],
-    "presets": [
-      "react-app"
-    ]
-  },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "embark": "^3.1.10"
+    "embark": "^3.2.0"
   }
 }
