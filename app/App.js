@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {VortexGate, VortexWeb3Loaded, VortexWeb3LoadError, VortexWeb3NetworkError, VortexWeb3Loading, VortexWeb3Locked, VortexMetamaskLoader} from "vort_x-components";
 import SimpleStorageContract from 'Embark/contracts/SimpleStorage';
-import * as Chains from '../chains.json';
+import Chains from '../chains.json';
 import {Grid, Col, Panel} from 'react-bootstrap';
 import Web3 from 'web3';
 
