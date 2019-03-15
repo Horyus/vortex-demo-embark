@@ -1,6 +1,6 @@
 {
   "name": "vort_x-demo-embark",
-  "version": "1.1.0",
+  "version": "2.1.0",
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
@@ -20,9 +20,9 @@
     "sha1": "^1.1.1",
     "vort_x": "^1.1.1",
     "vort_x-components": "^1.1.0",
-    "web3": "^1.0.0-beta.34"
+    "web3": "^1.0.0-beta.34",
+    "embarkjs-connector-web3": "4.0.0"
   },
   "devDependencies": {
-    "embark": "^3.2.0"
   }
 }
